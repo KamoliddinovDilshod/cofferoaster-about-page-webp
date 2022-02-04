@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webp</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <picture class="site-pic">
+
+    <source type="image/webp" media="(max-width:425px)" srcset="./images/three.webp 1x , ./images/three@2x.webp 2x">
+
+    <source type="image/webp" media="(max-width:768px)" srcset="./images/secound.webp 1x , ./images/secound@2x.webp 2x">
+
+    <source type="image/webp"  srcset="./images/first.webp 1x , ./images/first@2x.webp 2x">
+
+
+
+    <source media="(max-width:425px)" srcset="./images/three.jpg 1x , ./images/three@2x.jpg 2x">
+
+    <source media="(max-width:768px)" srcset="./images/secound.jpg 1x , ./images/secound@2x.jpg 2x">
+
+    <img src="./images/first.jpg"  srcset="./images/first.jpg 1x , ./images/first@2x.jpg 2x" alt="a waiter making coffee" width="445" height="520">
+
+  </picture>
+
+  <picture class="site-pic">
+    
+    <source type="image/webp" media="(max-width:425px)" srcset="./images/mobile.webp 1x , ./images/mobile@2x.webp 2x">
+
+    <source type="image/webp" media="(max-width:768px)" srcset="./images/tablet.webp 1x , ./images/tablet@2x.webp 2x">
+
+    <source type="image/webp" srcset="./images/desktop.webp 1x , ./images/desktop@2x.webp 2x">
+
+
+
+    <source media="(max-width: 425px)" srcset="./images/mobile.jpg 1x ,
+    ./images/mobile@2x.jpg 2x ">
+
+    <source media="(max-width: 768px)" srcset="./images/tablet.jpg 1x ,
+    ./images/tablet@2x.jpg 2x ">
+
+    <img src="./images/desktop.jpg" srcset="./images/desktop.jpg 1x , ./images/desktop@2x.jpg 2x " width="445" height="474" alt="draw a heart shape on a cup of coffee">
+
+  </picture>
+</body>
+</html>
